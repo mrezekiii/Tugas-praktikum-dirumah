@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+using namespace std;
+// TUGAS PRAKTIKUM DIRUMAH 31/03/2020 MUHAMMAD REZEKI
+int main (){
+	char huruf = 'Y' ;
+	/* JIKA DIMASUKAN N MAKA AKAN MELAKUKAN PERULANGAN
+	TETAPI KETIKA DIMASUKAN Y MAKA AKAN MENJALANKAN PROGRAM
+	*/
+	do {
+		cout << "Masukan ' N ' untuk menghentikan perulangan  "<<endl;
+		cout << "Masukan huruf 'Y' : ";
+		cin >> huruf;
+		
+	}while (huruf == 'Y');
+return 0;
+}
